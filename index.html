@@ -1,11 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Margin and Padding Features</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {
+        background-color: forestgreen;
+        padding: 20px;
+        color: white;
+        text-align: center;
+    }
+    
+    section {
+        padding: 20px;
+    }
+    
+    #introduction {
+        background-color: #c8e6c9; /* Moss Green */
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    li {
+        border: 1px solid #689f38; /* Dark Moss Green */
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    
+    footer {
+        background-color: forestgreen;
+        padding: 20px;
+        color: white;
+        text-align: center;
+    }
+    
+    @media (max-width: 768px) {
+        section {
+            padding: 10px;
+        }
+    }
+</style>
 </head>
 <body>
-  
+    <header>
+        <h1>Joseph Jacob Otieno</h1>
+    </header>
+
+    <section id="introduction">
+        <h2>Introduction</h2>
+        <p>Hello, I'm Joseph Jacob Otieno. I am passionate about facilitating digital and personal experiences that are engaging, stunning, and intuitive. I strive to delight clients by supporting the development and sustenance of supportive environments.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Computer Literacy</li>
+            <li>Data Entry Accuracy</li>
+            <li>Data Verification</li>
+            <li>Typing Proficiency</li>
+            <li>Database Knowledge</li>
+            <li>Communication skills</li>
+            <li>Problem-solving skills</li>
+        </ul>
+    </section>
+
+    <footer>
+        <h2>Contact Information</h2>
+        <p>Email: josephjacob313@gmail.com</p>
+        <p>Social Media: <a href="#">Twitter</a>, <a href="https://www.linkedin.com/in/joseph-jacob-1b6ba7163/">LinkedIn</a>, <a href="https://github.com/JosephJacob">GitHub</a></p>
+    </footer>
 </body>
 </html>
